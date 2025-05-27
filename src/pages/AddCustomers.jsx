@@ -1,7 +1,7 @@
 import React from "react";
 import BreadCrumbs from "../components/BreadCrumbs";
-import PageTitle from "../components/PageTItle";
 import { LuRefreshCw } from "react-icons/lu";
+import PageTitle from "../components/PageTitle";
 
 const AddCustomers = () => {
   return (

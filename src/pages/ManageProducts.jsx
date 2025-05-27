@@ -1,6 +1,6 @@
 import React from "react";
 import BreadCrumbs from "../components/BreadCrumbs";
-import PageTitle from "../components/PageTItle";
+import PageTitle from "../components/PageTitle";
 
 const ManageProducts = () => {
   return (

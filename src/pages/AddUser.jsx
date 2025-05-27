@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import PageTitle from "../components/PageTItle";
+import PageTitle from "../components/PageTitle";
 import BreadCrumbs from "../components/BreadCrumbs";
 
 const AddUser = () => {

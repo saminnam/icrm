@@ -3,7 +3,7 @@ import React, { useEffect, useState, useMemo } from "react";
 import { FaArrowUp, FaArrowDown } from "react-icons/fa";
 import BreadCrumbs from "../components/BreadCrumbs";
 import { IoSearchOutline } from "react-icons/io5";
-import PageTitle from "../components/PageTItle";
+import PageTitle from "../components/PageTitle";
 import Loader from "../components/Loader";
 
 const ManageUsers = () => {

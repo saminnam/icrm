@@ -1,0 +1,39 @@
+/* Basic styles for Quill editor content (you might need more specific ones) */
+.ql-editor {
+  min-height: 200px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif; /* Default font */
+}
+
+/* Ensure images and tables within Quill editor are responsive */
+.ql-editor img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ql-editor table {
+  width: 100% !important; /* Important to override Quill's inline styles */
+  border-collapse: collapse;
+}
+
+.ql-editor th,
+.ql-editor td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Custom Font Sizes for Quill (add these) */
+.ql-editor .ql-size-8px { font-size: 8px; }
+.ql-editor .ql-size-10px { font-size: 10px; }
+.ql-editor .ql-size-12px { font-size: 12px; } /* Default size */
+.ql-editor .ql-size-14px { font-size: 14px; }
+.ql-editor .ql-size-16px { font-size: 16px; }
+.ql-editor .ql-size-18px { font-size: 18px; }
+.ql-editor .ql-size-20px { font-size: 20px; }
+.ql-editor .ql-size-24px { font-size: 24px; }
+.ql-editor .ql-size-28px { font-size: 28px; }
+.ql-editor .ql-size-32px { font-size: 32px; }
+.ql-editor .ql-size-36px { font-size: 36px; }
+.ql-editor .ql-size-48px { font-size: 48px; }
+.ql-editor .ql-size-64px { font-size: 64px; }
+.ql-editor .ql-size-72px { font-size: 72px; }
